@@ -7,7 +7,7 @@ mongoose.connect(mongoURL,{
     useUnifiedTopology: true
 }) 
 
-
+//bye bye
 const db = mongoose.connection; 
 
 db.on('connected',()=>{
